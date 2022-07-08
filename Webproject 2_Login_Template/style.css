@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(ii.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.login {
+    
+    width: 40%;
+    min-height: 1%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 23px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 230%;
+    padding-top: 20px;
+}
+
+button {
+    background: #4d4de8;;
+    text-align: center;
+    font-size: 12px;
+    height: 48px;
+    width: 42%;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+button:hover {
+    background: rgb(15, 5, 153);
+}
+
+.line {
+    width: 70%;
+    height: 3px;
+    background: green;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.form1 {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding-left: 25%;
+    padding-bottom: 10px;
+}
+
+input {
+    margin: 8px;
+    width: 80%;
+    height: 30px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.sub {
+    width: 30%;
+    height: 30px;
+    background: #4d4de8;;
+    color: white;
+    margin-left: 20%;
+    font-size: 10px;
+    margin-bottom: 18px;
+}
+
+.sub:hover {
+    width: 30%;
+    height: 30px;
+    background: rgb(15, 5, 153);
+}
+
+#c {
+    width: 5%;
+    height: 20px;
+}
+
+p {
+    font-size: 15px;
+}
+
+@media screen and (max-width:325px) {
+    h1 {
+        font-size: 200%;
+    }
+}
+
+@media screen and (max-width:278px) {
+    h1 {
+        font-size: 150%;
+    }
+}
+
+@media screen and (max-width:210px) {
+    h1 {
+        font-size: 100%;
+    }
+}
